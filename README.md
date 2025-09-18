@@ -1,10 +1,12 @@
-## SleepNet — Exploratory Data Analysis
+## SleepNet
 
 This repository contains notebooks and data for initial experiments with the SleepNet dataset.
 
 ### Files
 
-- `RawDataset.xlsx` — original dataset (place in repository root or update path in notebooks).
+- `RawDataset.xlsx` — original dataset with all 999 features.
+- `5_Features.xlsx` — dataset with 5 engineered features.
+- `70_Features.xlsx` — dataset with 70 engineered features.
 - `XGBoost.ipynb`
   — exploratory analysis notebook that inspects the dataset and generates basic visualizations.
   - modeling experiments using XGBoost.
