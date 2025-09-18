@@ -2,13 +2,24 @@
 
 This repository contains notebooks and data for initial experiments with the SleepNet dataset.
 
-Files
+### Files
 
 - `RawDataset.xlsx` — original dataset (place in repository root or update path in notebooks).
-- `XGBoost.ipynb` — exploratory analysis notebook that inspects the dataset and generates basic visualizations.
-- modeling experiments using XGBoost.
+- `XGBoost.ipynb`
+  — exploratory analysis notebook that inspects the dataset and generates basic visualizations.
+  - modeling experiments using XGBoost.
 
-Quick start
+### Quick start
+
+- run env-creation script to create and activate a virtual environment and install dependencies
+
+```bash
+bash env-creation.sh
+```
+
+### Create and activate a virtual environment and install dependencies
+
+- if bash is not available, follow one of these steps:
 
 1. Create a Python virtual environment (recommended):
 
