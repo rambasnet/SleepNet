@@ -1,0 +1,16 @@
+name: sleepnet
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - xgboost
+  - openpyxl
+  - jupyter
+  - pip:
+    - -r requirements.txt
